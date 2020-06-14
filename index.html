@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		li{
+			list-style: none;
+		}
+		a{
+			text-decoration: none;
+		}
+		#news {
+	        width: 100%;
+	        z-index: 1;
+	        left: 0px;
+	        top: 0px;
+        }
+        #news #top{
+        	height: 55px;
+	        width: 100%;
+	        border-bottom: 1px solid #e9e9e9;
+	        border-top: 2px solid #fa7d3c;
+        }
+        .logo{
+        	padding-left: 10px;
+        	float: left;
+        }
+        .input{
+        	height: 25px;
+        	width: 400px;
+        	margin-left:10px;
+        	margin-top: 15px;
+        	font-size: 16px;
+        	color: #ccc;
+        	float: left;
+        	margin-right: 300px;
+        }
+        .list1{
+        	height: 55px;
+        	line-height: 55px;
+        }
+        .list1 ul li{
+        	display: inline-block;
+        	padding-right: 40px;
+        }
+        .list1 ul li a{
+        	font-family: "微软雅黑";
+	        font-size: 15px;
+	        color: #666;
+        }
+        .list1 ul li a:hover{
+        	color: #f60;
+        }
+        .main{
+        	float: left;
+        	height: 1000px;
+        	width: 100%
+        }
+        .list2{
+        	float: left;
+	        height: 520px;
+	        width: 115px;
+        }
+        .list2 ul li{
+        	height: 38px;
+	        width: 115px;
+	        line-height: 38px;
+	        text-align: center;
+	        border-radius: 3px;
+        }
+        .list2 ul li:hover{
+        	background-color: #fc4432;
+        }
+        .list2 ul li a{
+        	font-family: "微软雅黑";
+	        font-size: 18px;
+	        color: black;
+        }
+        .list2 ul li a:hover{
+        	color: white;
+        }
+        .banner{
+        	float: left;
+        }
+        .hot{
+           width: 700px;
+           height: 400px;
+           padding-right: 100px;
+        }
+        .today{
+        	width: 700px;
+        	height: 400px;
+        	float: left;
+        	padding-right: 100px;
+        }
+        .today ul li{
+        	width: 700px;
+        	height: 200px;
+        }
+        .news1{
+           border-bottom: 1px solid #e9e9e9;
+        }
+        .news1 a{
+           line-height: 200px;
+           color: black;
+           float: left;
+           padding-right: 130px;
+        }
+        .news2{
+           border-bottom: 1px solid #e9e9e9;
+        }
+        .news2 a{
+           line-height: 200px;
+           color: black;
+           float: left;
+           padding-right: 240px;
+        }
+        .news3{
+           border-bottom: 1px solid #e9e9e9;
+        }
+        .news3 a{
+           line-height: 200px;
+           color: black;
+           float: left;
+           padding-right: 305px;
+        }
+        .news2 img{
+        	padding-top: 10px;
+        }
+        .news3 img{
+        	padding-top: 20px;
+        }
+        .bottom{
+        	background-color: #ccc;
+        	height:200px;
+            margin-top: 700px;
+            text-align: center;
+            line-height: 200px;
+        }
+        .bottom p{
+        	font-size: 10px;
+        }
+        .like p{
+        	color: #f60;
+        }
+        .like ul li a{
+        	color: #ccc;
+        	font-size: 15px;
+        }
+        .like ul li a:hover{
+        	color: #f60;
+        }
+        .like ul li{
+        	padding-bottom: 20px;
+        }
+	</style>
+</head>
+<body>
+	<div id="news">
+		<div id="top">
+			<img class="logo" width="137" height="55" src="logo.jpg">
+            <input class="input" type="text" name="search" value="大家都在搜：示威者在巴黎共和广场抗议种族歧视">
+            <div class="list1">
+            	<ul>
+            	    <li>
+            		    <a href="#">首页</a>
+            	    </li>
+            	    <li>
+            		    <a href="#">国际</a>
+            	    </li>
+            	    <li>
+            		    <a href="#">台海</a>
+            	    </li>
+            	    <li>
+            		    <a href="#">社会</a>
+            	    </li>
+            	    <li>
+            		    <a href="#">军事</a>
+            	    </li>
+                </ul>
+            </div>
+		</div>
+		<div id="main">
+			<div class="list2">
+				<ul>
+					<li>
+						<a href="#">热门</a>
+					</li>
+					<li>
+						<a href="#">国内</a>
+					</li>
+					<li>
+						<a href="#">视频</a>
+					</li>
+					<li>
+						<a href="#">财经</a>
+					</li>
+					<li>
+						<a href="#">社评</a>
+					</li>
+					<li>
+						<a href="#">体育</a>
+					</li>
+					<li>
+						<a href="#">文旅</a>
+					</li>
+					<li>
+						<a href="#">教育</a>
+					</li>
+					<li>
+						<a href="#">时尚</a>
+					</li>
+					<li>
+						<a href="#">健康</a>
+					</li>
+					<li>
+						<a href="#">理财</a>
+					</li>
+					<li>
+						<a href="#">公益</a>
+					</li>
+				</ul>
+			</div>
+			<div class="banner">
+				<img class="hot" src="banner.jpg">
+			</div>
+            <div class="today">
+            	<ul>
+            		<li>
+            			<div class="news1">
+            				<a href="#">巨幅“黑人的命也是命”字样现身旧金山市中心街面</a>
+            				<img height="200" width="200" src="news1.jpg">
+            			</div>
+            		</li>
+            		<li>
+            			<div class="news2">
+            				<a href="#">北京海淀：智能垃圾分类驿站进社区</a>
+            				<img height="200" width="200" src="news2.jpg">
+            			</div>
+            		</li>
+            		<li>
+            			<div class="news3">
+            				<a href="#">美国又出现暴力执法？！！</a>
+            				<img height="200" width="200" src="news3.jpg">
+            			</div>
+            		</li>
+            	</ul>
+            </div>
+		</div>
+		<div class="right">
+			<div class="signin">
+				<form action="#" method="get">
+					<br>
+                    <label>用户登录</label><br><br>
+                    <input type="text" placeholder="请输入用户名" name="username"><br><br>
+                    <input type="password" placeholder="请输入密码" name="password"><br><br>
+                    <input type="checkbox">记住密码<br><br>
+                    <button style="width:172px;height:23px;">登录</button>
+                </form>
+			</div>
+			<div class="like">
+				<br>
+				<br>
+				<br>
+				<p>猜你关注</p>
+				<br>
+				<ul>
+					<li>
+						<a href="#">NO.1&nbsp;&nbsp;&nbsp;巴黎爆发1.5万人“反种族歧视”示威 专家担心加剧新冠病毒传播</a>
+					</li>
+					<li>
+						<a href="#">NO.2&nbsp;&nbsp;&nbsp;还在清算！美国新奥尔良奴隶主雕像被示威者拉倒，丢进密西西比河</a>
+					</li>
+					<li>
+						<a href="#">NO.3&nbsp;&nbsp;&nbsp;英国反种族主义游行周末继续 警察与示威者冲突剧烈</a>
+					</li>
+					<li>
+						<a href="#">NO.4&nbsp;&nbsp;&nbsp;一文读懂全球疫情: 全球累计确诊病例773万 美国多州单日新增出现新高</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="bottom">
+			<p>不良内容举报邮箱:&nbsp;&nbsp;&nbsp;<a href="#">jubao@huanqiu.com</a> 举报电话: &nbsp;&nbsp;&nbsp;010-65361101 (内容投诉1601、广告投诉2404、技术投诉2804、 其它1100)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="beian.png"><a href="#">京公网安备&nbsp;&nbsp;&nbsp;11010502003203</a> </p>
+		</div>
+	</div>
+</body>
+</html>
